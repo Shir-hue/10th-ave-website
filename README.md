@@ -11,20 +11,25 @@ Open `index.html` in a browser, or use the VS Code **Live Server** extension.
 
 ```
 index.html          page content
-css/styles.css      styles and brand colors (top of file)
-js/main.js          gallery, menu, scroll effects, contact form
-js/projects.js      project photo list
-images/             logos, favicons and project photos
+css/styles.css      styles (brand colors at the top)
+js/main.js          menu, scroll effects, gallery, contact form
+js/projects.js      project photo groups
+images/             logos, banner, favicons and project photos
 ```
+
+Images used by the page: `logo-symbol.png`, `logo-symbol-sm.png`, `banner.jpg`,
+`banner-store.jpg`, `favicon-32.png`, `apple-touch-icon.png`.
 
 ## Add project photos
 
 1. Save the photos in `images/`.
-2. List them in `js/projects.js`:
+2. List them in `js/projects.js` under the matching group:
 
 ```js
-{title:'VIVAIA', images:['images/vivaia-1.jpg','images/vivaia-2.jpg']}
+{title:'Brand kiosks and displays', images:['images/kiosk-1.jpg','images/kiosk-2.jpg']}
 ```
+
+Use photos without visible client names or logos.
 
 ## Brand
 

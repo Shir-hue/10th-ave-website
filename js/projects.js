@@ -1,22 +1,23 @@
-/* ===== PROJECT PHOTO ENGINE =====
-   OPTION A (any host): put images in an /images folder and list them below.
-   OPTION B (recommended, no coding to add photos): use a free Cloudinary account.
-     1. Paste your Cloudinary cloud name into CLOUD_NAME below.
-     2. In Cloudinary, enable Settings > Security > "Resource list" for images.
-     3. Upload photos and give each one a tag matching its project:
-        chris-sports, stanley, vivaia, vm-all-stars-x-guess, cm-unipessoal,
-        wan-tech, tyrone-uniform-hub, the-platinum
-        (or set your own tag with {title:'...', tag:'my-tag', images:[]}).
-     New photos then appear on the site for every visitor automatically. */
+/* ===== PROJECT PHOTOS =====
+   Each group below is one gallery section on the page.
+
+   OPTION A (any host): save photos in the /images folder and list them, e.g.
+     {title:'Brand kiosks and displays', images:['images/kiosk-1.jpg','images/kiosk-2.jpg']}
+
+   OPTION B (optional, free Cloudinary account): paste your cloud name into CLOUD_NAME,
+     enable "Resource list" for images, then upload photos tagged with the group's
+     tag (the title in lowercase with dashes, e.g. brand-kiosks-and-displays).
+     New photos then appear on the site automatically.
+
+   Tip: use photos without visible brand names or logos. */
 var CLOUD_NAME='';
 var PROJECTS=[
-  {title:'Chris Sports',images:[]},
-  {title:'Stanley',images:[]},
-  {title:'VIVAIA',images:[]},
-  {title:'VM All Stars x GUESS',images:[]},
-  {title:'CM Unipessoal',images:[]},
-  {title:'Wan Tech',images:[]},
-  {title:'Tyrone Uniform Hub',images:[]},
-  {title:'The Platinum',images:[]}
-  /* example: {title:'VIVAIA',images:['images/vivaia-1.jpg','images/vivaia-2.jpg']} */
+  {title:'Retail concept stores',images:[]},
+  {title:'Brand kiosks and displays',images:[]},
+  {title:'Store display refurbishment',images:[]},
+  {title:'Store VM maintenance',images:[]},
+  {title:'Store design and 3D rendering',images:[]},
+  {title:'POP and digital design',images:[]},
+  {title:'Uniform design',images:[]},
+  {title:'Product displays and planograms',images:[]}
 ];

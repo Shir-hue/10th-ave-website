@@ -84,6 +84,7 @@
     e.preventDefault();
     var data = new FormData(this);
     var subject = 'Project inquiry from ' + data.get('name');
+    byId('form-note').textContent = 'Opening your email app. If nothing opens, please email 10thavenue.vmsd@gmail.com directly.';
     var body = 'Name: ' + data.get('name') + '\nEmail: ' + data.get('email') + '\n\n' + data.get('msg');
     window.location.href = 'mailto:10thavenue.vmsd@gmail.com?subject=' +
       encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
