@@ -161,7 +161,7 @@
   /* ---------- Scroll reveal ---------- */
   if (!reduceMotion && 'IntersectionObserver' in window) {
     var targets = document.querySelectorAll(
-      '.head, .about .txt, .svc, .cl article, .step, .band .wrap > *, .person, .contact .wrap > *'
+      '.head, .about .txt, .svc, .step, .band .wrap > *, .person, .contact .wrap > *'
     );
 
     var observer = new IntersectionObserver(function (entries) {
