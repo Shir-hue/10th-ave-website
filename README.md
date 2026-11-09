@@ -15,6 +15,7 @@ css/styles.css      styles (brand colors at the top)
 js/main.js          menu, scroll effects, gallery, contact form
 js/projects.js      project photo groups
 images/             logos, banner, favicons and project photos
+images/team/        team portraits (480x600, 4:5)
 ```
 
 Images used by the page: `logo-symbol.png`, `logo-symbol-sm.png`, `banner.jpg`,
